@@ -1,0 +1,14 @@
+div{
+/*  border: solid 1px black;*/
+}
+body{
+  background: no-repeat fixed url("../img/fondomesa.jpg");
+  background-size: 100% 100%;
+}
+.entradas{
+  background-color: rgba(255,0,0,.80) !important;
+
+}
+.entrada{
+  background-color: transparent !important;
+}

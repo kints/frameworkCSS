@@ -1,0 +1,152 @@
+/* Clase para darle estilos al body */
+.cinema-body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+/*  background-size: 100% 100%;*/
+  background-position: center;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+.welcome-title{
+  color: white;
+  margin-right: 10px;
+}
+/* Clase para darle estilos al jumbotron */
+.jumbotron-img{
+  margin-top: 20px;
+  width: 150px;
+}
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+.redes-sociales{
+  margin-top: 20px;
+}
+.img-social{
+  height: 40px;
+  width: 40px;
+}
+.titulo-text{
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+  background-color: blue;
+}
+.jumbotron {
+  background-image: url("../img/camara.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+.logo-img{
+  width: 15%;
+}
+.redesIconos{
+  font-size: 40px;
+}
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 45px;
+  background: rgba(0,0,0,0.95);
+}
+.label-class{
+  color: white;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.input-element{
+  width: 100%;
+  height: 28px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.btn-save{
+  width: 40%;
+  background-color: rgba(100,0,255,0.95);
+  color: white;
+
+}
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  /*background: #00678E;*/
+  background-color: rgba(255,255,255,.8)
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.user-data{
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  background-color: rgba(0,0,0,.8);
+  /*background: #00678E;*/
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+.movies-title{
+  color: white;
+}
+.img-movies{
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+  width: 100%;
+  height: auto;
+}
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+.services-text{
+ color: white;
+}
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+h2{
+  font-size: 22px;
+}
+  .movies-row {
+    min-height: 250px;
+
+  }
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+  .jumbotron-img{
+    margin-top: 20px;
+  }
+  .titulo-cartelera{
+    font-size: 15px;
+  }
+}

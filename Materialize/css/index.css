@@ -1,0 +1,7 @@
+body{
+  background: no-repeat fixed url("../img/fondo.jpg");
+  background-size: 100% 100%;
+}
+.logo{
+  width: 15%;
+}
